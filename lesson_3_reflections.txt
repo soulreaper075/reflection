@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+when i want to share my work with ither developers and want other people's sugestions then it may be aa good idea to keep the data on a remote repository.
