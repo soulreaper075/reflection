@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository is the first step of using a verson control system. Only after creating a repository we can create commits and work on them.
+

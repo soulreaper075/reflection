@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+by reading every line 
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+by having access to older versions of my document i can easily compare them at any point of time to look up where i made a wrong choice or mistake.
+
+
+How Often to Commit
+
+Since you can choose when to make a commit, you might be wondering how often to commit your changes. It's usually a good idea to keep commits small. As the diff between two versions gets bigger, it gets harder to understand and less useful. However, you don’t want to make your commits too small either. If you always save a commit every time you change a line of code, your history will be harder to read since it will have a huge number of commits over a short time period.
+
+A good rule of thumb is to make one commit per logical change. For example, if you fixed a typo, then fixed a bug in a separate part of the file, you should use one commit for each change since they are logically separate. If you do this, each commit will have one purpose that can be easily understood. Git allows you to write a short message explaining what was changed in each commit, and that message will be more useful if each commit has a single logical change.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: 1.every commit can be made when there is a change made in the file.
+2.no unnecessary commit is made.
+
+Cons: 1.commits are not made if user forget to make them, leaving changes made go undocumented.
+2.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+maybe because git wants the user to log all the inter related files' commits together so as to reviewing the later is more easy and its convenient for the user.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+using git log we can know every commit with the comment(what changes were made) and the time of the commit and by git diff every version is checked for the revisions made(lined edited in the file).
+
